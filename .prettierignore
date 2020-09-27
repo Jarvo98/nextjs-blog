@@ -1,0 +1,8 @@
+# Ignore artifacts
+/node_modules
+/public
+/.next
+/.gitignore
+/.prettierignore
+/next-env.d.ts
+/README.md
