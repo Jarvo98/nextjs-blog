@@ -6,7 +6,7 @@ import Link from "next/link";
 export const siteTitle: string = "Next.js Sample Website";
 
 interface Props {
-    children: JSX.Element;
+    children: React.ReactNode;
     home: boolean;
 }
 
@@ -42,7 +42,7 @@ export default function Layout(props: Props) {
                         <Link href="/">
                             <a>
                                 <img
-                                    src="/images/profile.jpg"
+                                    src="/images/profile.png"
                                     className={`${styles.headerImage} ${utilStyles.borderCircle}`}
                                     alt={name}
                                 />
